@@ -12,11 +12,15 @@
 <body>
     <header class="header">
         <div class="container">
-            <img alt="logo-mercado-livre" class="logo"
+            
+            <div class="search-container">
+               
+                <img alt="logo-mercado-livre" class="logo"
                 src="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-libre-thumbnail--1538x1510--b612412b.webp">
 
-            <div class="search-container">
+    
                 <input type="text" id="searchInput" placeholder="Buscar produtos..." class="search-input">
+                
                 <button id="searchBtn" class="search-btn">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
@@ -33,6 +37,10 @@
     <main class="main">
         <div class="container">
             <h2 class="section-title">Ofertas do dia</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- OS NOSSOS PRODUTOS  - SERÃO INSERIDOS AQUI -->
+
+            </div>
         </div>
 
     </main>
